@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.poc.nycschools.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_name"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_mail"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_mail" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_mobile"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_mob" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_count"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_count" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_addr"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_addr" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_city"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_city" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_zip"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_zip" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_ste"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_state" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/StyleInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_scl_web"
+                style="@style/DetailAutoCompleteTxtStyle"
+                android:hint="@string/hint_scl_web" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="SAT SCORE INFO"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c4c4c4"></View>
+
+            <TextView
+                android:id="@+id/test_takers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c4c4c4"></View>
+
+            <TextView
+                android:id="@+id/critical_reading_avg_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c4c4c4"></View>
+
+            <TextView
+                android:id="@+id/math_avg_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c4c4c4"></View>
+
+            <TextView
+                android:id="@+id/writing_avg_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c4c4c4"></View>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">20180213-VS-NYCSchools</string>
+
+    <string name="title_info">Information</string>
+    <string name="hint_scl_name">School Name</string>
+    <string name="hint_scl_mail">Mail</string>
+    <string name="hint_scl_mob">Mobile Number</string>
+    <string name="hint_scl_state">State Code</string>
+    <string name="hint_scl_zip">Zip Code</string>
+    <string name="hint_scl_addr">Address</string>
+    <string name="hint_scl_city">City</string>
+    <string name="hint_scl_count">Number of Students</string>
+    <string name="hint_scl_web">Website</string>
+</resources>
